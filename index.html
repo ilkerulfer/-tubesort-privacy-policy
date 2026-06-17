@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TubeSort - Gizlilik Politikası</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1, h2 {
+            color: #e62117;
+        }
+        h1 {
+            border-bottom: 3px solid #e62117;
+            padding-bottom: 10px;
+        }
+        .last-updated {
+            color: #666;
+            font-size: 0.9em;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .important {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 10px 15px;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>TubeSort - Gizlilik Politikası</h1>
+    <p class="last-updated"><strong>Son Güncelleme Tarihi:</strong> 17 Haziran 2026</p>
+
+    <p>TubeSort ("biz", "uzantı"), kullanıcılarının gizliliğine büyük önem vermektedir. Bu gizlilik politikası, uzantımızın hangi verilere eriştiğini, bu verileri nasıl kullandığını ve koruduğunu açıklamaktadır.</p>
+
+    <h2>1. Toplanan Veriler</h2>
+    <p>TubeSort aşağıdaki verilere erişir:</p>
+    <ul>
+        <li><strong>YouTube Abonelik Bilgileri:</strong> Uzantı, kullanıcının Google hesabına bağlanarak YouTube Data API üzerinden kullanıcının abonelik listesini çeker. Bu bilgiler arasında kanal adı, kanal ID'si ve kanal resmi gibi temel abonelik verileri yer alır.</li>
+        <li><strong>Kullanıcı Tercihleri:</strong> Kullanıcının oluşturduğu kategoriler ve bu kategorilere atanmış YouTube kanallarının eşleşmeleri.</li>
+        <li><strong>Kimlik Doğrulama Bilgileri:</strong> Uzantı, kullanıcının Google hesabıyla güvenli OAuth yetkilendirmesi yapmak için Chrome'un yerleşik <code>identity</code> API'sini kullanır. Şifre veya kişisel giriş bilgileri hiçbir zaman uzantı tarafından alınmaz veya saklanmaz.</li>
+    </ul>
+
+    <div class="important">
+        <strong>Önemli Not:</strong> Uzantı hiçbir şekilde kullanıcının izleme geçmişi, arama geçmişi, kişisel mesajları veya diğer hassas YouTube verilerine erişmez. Sadece açık abonelik listesi okunur.
+    </div>
+
+    <h2>2. Verilerin Kullanımı</h2>
+    <p>Toplanan veriler yalnızca aşağıdaki amaçlar için kullanılır:</p>
+    <ul>
+        <li>Kullanıcının YouTube aboneliklerini kategorilere ayırmak ve filtrelemek.</li>
+        <li>Kullanıcının oluşturduğu kategorileri ve kanal atamalarını hatırlamak.</li>
+        <li>Uzantının temel işlevselliğini sağlamak.</li>
+    </ul>
+    <p>Veriler hiçbir şekilde reklam, pazarlama veya üçüncü taraf analizi amacıyla kullanılmaz.</p>
+
+    <h2>3. Verilerin Saklanması</h2>
+    <ul>
+        <li>Tüm kullanıcı verileri (kategoriler ve kanal eşleşmeleri) <strong>yalnızca kullanıcının kendi tarayıcısında</strong> (<code>chrome.storage.local</code>) saklanır.</li>
+        <li>Veriler TubeSort sunucularına veya herhangi bir üçüncü taraf sunucusuna gönderilmez.</li>
+        <li>Veriler tarayıcıdan silindiğinde veya uzantı kaldırıldığında kalıcı olarak silinir.</li>
+    </ul>
+
+    <h2>4. Verilerin Paylaşılması</h2>
+    <p>TubeSort aşağıdaki durumlar dışında hiçbir kişisel veriyi üçüncü taraflarla paylaşmaz:</p>
+    <ul>
+        <li><strong>Google YouTube Data API:</strong> Abonelik verilerini çekmek için resmi Google API'si kullanılır. Bu etkileşim Google'ın kendi gizlilik politikasına tabidir.</li>
+        <li>Yasal zorunluluklar durumunda (mahkeme kararı vb.).</li>
+    </ul>
+    <p>TubeSort verileri satmaz, kiralamaz veya ticari amaçla paylaşmaz.</p>
+
+    <h2>5. Güvenlik</h2>
+    <ul>
+        <li>Uzantı, Google'ın resmi OAuth sistemini (<code>chrome.identity</code>) kullanarak güvenli kimlik doğrulaması yapar.</li>
+        <li>Hiçbir veri şifrelenmemiş olarak ağ üzerinden iletilmez.</li>
+        <li>Tüm işlemler kullanıcının cihazında yerel olarak gerçekleştirilir.</li>
+    </ul>
+
+    <h2>6. Kullanıcı Hakları</h2>
+    <p>Kullanıcılar:</p>
+    <ul>
+        <li>Uzantı ayarlarından tüm verilerini (kategoriler ve atamalar) silebilir.</li>
+        <li>Uzantıyı kaldırarak tüm yerel verileri silebilir.</li>
+        <li>Google Hesap ayarlarından uzantıya verilen erişim iznini istediği zaman iptal edebilir.</li>
+    </ul>
+
+    <h2>7. Çocukların Gizliliği</h2>
+    <p>TubeSort 13 yaşın altındaki çocuklardan bilerek kişisel veri toplamaz. Eğer böyle bir veri toplandığını fark ederseniz lütfen bizimle iletişime geçin.</p>
+
+    <h2>8. Politika Değişiklikleri</h2>
+    <p>Bu gizlilik politikası zaman zaman güncellenebilir. Önemli değişiklikler olduğunda uzantı içinde veya yayın sayfasında duyuru yapılacaktır. Güncel politikayı her zaman bu sayfada bulabilirsiniz.</p>
+
+    <h2>9. İletişim</h2>
+    <p>Gizlilik politikası veya veri işleme ile ilgili sorularınız için lütfen iletişime geçin:</p>
+    <ul>
+        <li><strong>E-posta:</strong> [kendi e-posta adresinizi buraya yazın]</li>
+        <li><strong>GitHub:</strong> [varsa GitHub profilinizi ekleyin]</li>
+    </ul>
+
+    <hr>
+    <p><strong>TubeSort</strong><br>
+    YouTube Abonelik Yöneticisi<br>
+    Gizlilik Politikası - 17 Haziran 2026</p>
+</body>
+</html>
